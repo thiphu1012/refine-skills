@@ -1,0 +1,6 @@
+{
+  "name": "refine",
+  "version": "0.1.0",
+  "description": "Turn an informal prompt into an explicit task contract, then wait for approval before executing.",
+  "author": { "name": "thiphu1012" }
+}

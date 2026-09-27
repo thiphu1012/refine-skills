@@ -1,0 +1,11 @@
+{
+  "name": "team-skills",
+  "owner": { "name": "thiphu1012" },
+  "plugins": [
+    {
+      "name": "refine",
+      "source": "./plugins/refine",
+      "description": "Turn an informal prompt into an explicit task contract, then wait for approval before executing."
+    }
+  ]
+}
