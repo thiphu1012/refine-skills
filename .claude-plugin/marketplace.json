@@ -10,9 +10,9 @@
       "description": "Turn an informal prompt into an explicit task contract, then wait for approval before executing."
     },
     {
-      "name": "system-study",
-      "source": "./plugins/system-study",
-      "description": "Analyze any system in 8 first-principles steps, write a Markdown + archify report, then quiz the user on it."
+      "name": "thiphu",
+      "source": "./plugins/thiphu",
+      "description": "Thiphu personal skills. Currently: system-study."
     }
   ]
 }

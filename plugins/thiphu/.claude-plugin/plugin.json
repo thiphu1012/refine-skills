@@ -1,6 +1,8 @@
 {
-  "name": "system-study",
+  "name": "thiphu",
   "version": "0.1.0",
-  "description": "Analyze any system in 8 first-principles steps, write a Markdown + archify report, then quiz the user on it.",
-  "author": { "name": "thiphu1012" }
+  "description": "Thiphu personal skills. Currently: system-study, 8-step first-principles analysis of any system with a Markdown + archify report and a teach-back quiz.",
+  "author": {
+    "name": "thiphu1012"
+  }
 }
