@@ -1,7 +1,7 @@
 # refine-skills
 
-A Claude Code plugin marketplace containing the `refine` plugin, which provides
-the `refine-opus-5-5` skill.
+A Claude Code plugin marketplace with two plugins: `refine` (the `refine-opus-5-5`
+skill) and `system-study`.
 
 `/refine:refine-opus-5-5` turns an informal task prompt into a visible task
 contract with goal, scope, constraints, success criteria, verification and stop
@@ -73,4 +73,17 @@ verification that applies in your repo. Then it stops and waits for you.
 
 ```
 /plugin marketplace update team-skills
+```
+
+## system-study
+
+`/system-study:system-study <system>` studies any system (repo, framework, running
+app, doc URL) through 8 fixed first-principles steps: invariant, data ownership,
+seams, one traced request, design trade-offs, failure modes, smallest rebuild,
+build-or-adopt. It pauses after each step for your reaction, writes a Markdown
+report plus an archify HTML version, then interviews you from the report to check
+you understood.
+
+```
+/plugin install system-study@team-skills
 ```

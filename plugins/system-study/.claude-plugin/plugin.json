@@ -1,0 +1,6 @@
+{
+  "name": "system-study",
+  "version": "0.1.0",
+  "description": "Analyze any system in 8 first-principles steps, write a Markdown + archify report, then quiz the user on it.",
+  "author": { "name": "thiphu1012" }
+}

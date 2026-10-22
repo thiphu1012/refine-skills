@@ -1,11 +1,18 @@
 {
   "name": "team-skills",
-  "owner": { "name": "thiphu1012" },
+  "owner": {
+    "name": "thiphu1012"
+  },
   "plugins": [
     {
       "name": "refine",
       "source": "./plugins/refine",
       "description": "Turn an informal prompt into an explicit task contract, then wait for approval before executing."
+    },
+    {
+      "name": "system-study",
+      "source": "./plugins/system-study",
+      "description": "Analyze any system in 8 first-principles steps, write a Markdown + archify report, then quiz the user on it."
     }
   ]
 }
